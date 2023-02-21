@@ -1,0 +1,487 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  :root {
+    --color-primary: #0073ff;
+    --color-white: #e9e9e9;
+    --color-black: #141d28;
+    --color-black-1: #2a3849;
+    --color-gray: #212b38;
+    --padding-inline-section: 20px;
+  }
+  body {
+    font-family: sans-serif;
+    background-color: var(--color-white);
+  }
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  h3 {
+    font-size: 1.5rem;
+  }
+  p {
+    font-family: sans-serif;
+    font-size: 1.25rem;
+    line-height: 1.8rem;
+  }
+  a {
+    text-decoration: none;
+    display: inline-block;
+  }
+  .small-bold-text {
+    font-size: 1rem;
+    font-weight: 700;
+  }
+  .containers {
+    max-width: 1180px;
+    margin-inline: auto;
+    padding-inline: var(--padding-inline-section);
+  }
+  .flex{
+      display: flex;
+      align-items: center;
+  }
+  ul{
+      list-style: none;
+  }
+  .input-box{
+    border: 1px solid black;
+    width: 100%;
+    height: 30px;
+    font-size: 20px;
+    text-align: center;
+    /* color: rgb(72, 255, 0); */
+    /* color: var(--color-black); */
+    font-weight: 600;
+}
+.top-banner {
+    background-color: var(--color-black-1);
+    box-shadow: 1px 2px 10px 5px;
+  }
+  .banner-text {
+    color: var(--color-white);
+    padding: 15px 30px;
+    text-align: center;
+    justify-content: center;
+    /* background-color: var(--color-black-1); */
+    /* border: 1px solid var(--color-black-1); */
+    border-radius: 5px;
+  }
+  .logo1{
+      border: 1px solid black;
+      border-radius: 50%;
+      width: 60px;
+      height: 60px;
+      margin-top: 14px;
+      align-items: center;
+      text-align: center;
+      /* justify-content: ; */
+  }
+  .main-nav{
+      margin-top: 20px;
+      /* justify-content: space-between; */
+      /* justify-content: space-around; */
+      /* justify-content: space-between; */
+  }
+  
+  .main-header{
+      font-size: 30px;
+      margin-top: 10px;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: var(--color-black);
+      /* color: #0dff00; */
+      /* background-color: #2a3849; */
+  }
+  .nav-links{
+      flex-basis: 876px;
+  }
+  .nav-links ul{
+      justify-content: end;
+      gap: 40px;
+  }
+  
+  
+  
+  .hover-link{
+      color: var(--color-black);
+      font-weight: 600;
+      transition: 0.3s ease-out;
+  }
+  .hover-link:hover{
+      color: var(--color-primary);
+  }
+  
+  .primary-button{
+      background-color: var(--color-black-1);
+      border-radius: 6px;
+      font-weight: 700;
+      color: var(--color-white);
+      padding: 12px 24px;
+      box-sizing: 0 0 2px var(--color-white);
+      transition: 0.3s ease-out;
+  }
+  .primary-button-1{
+      background-color: var(--color-black-1);
+      border-radius: 6px;
+      font-weight: 700;
+      color: var(--color-white);
+      padding: 12px 24px;
+      box-sizing: 0 0 2px var(--color-white);
+      transition: 0.3s ease-out;
+      margin-left: 10%;
+  }
+  .primary-button:hover{
+      background-color: var(--color-gray);
+  }
+  .primary-button-1:hover {
+      background-color: var(--color-gray);
+  }
+  .secondary-button{
+      border: 0.5px solid black;
+      border-radius: 6px;
+      padding: 12px 24px;
+      transition: 0.3s ease-out;
+  }
+  .secondary-button:hover{
+      border-color: var(--color-primary);
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+/* Student Register Form  */
+.s-reg-button{
+    width: 15%;
+}
+.s-reg{
+    border: 1px solid black;
+    margin-top: 20px;
+    background-color: var(--color-black);
+    border-radius: 6px;
+    box-shadow: 1px 2px 10px 5px black;
+    margin: 20px;
+}
+.s-reg h3{
+    /* color: var(--color-white); */
+    padding: 20px 20px 0px 20px;
+    text-align: center;
+    color: aqua;
+    font-size: 30px;
+    /* margin-bottom: 10px; */
+}
+.s-reg h3 hr{
+    width: 257px;
+    margin-left: 400px;
+    /* color: aqua; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* text-align: center; */
+}
+.s-reg h5{
+    margin-left: 10%;
+    color: aqua;
+    font-size: 20px;
+}
+.s-reg input{
+    width: 80%;
+    margin-left: 10%;
+}
+.secondary-button-1{
+    
+    color: aqua;
+    border: 1px solid aqua;
+    padding: 10px;
+    border-radius: 6px;
+    transition: 0.4s ease-out;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 100%;
+    margin-left: 468px;
+    margin-right: 576px;
+}
+.secondary-button-1:hover{
+    color: var(--color-primary);
+    border: 1px solid var(--color-primary);
+    padding: 10px;
+    border-radius: 6px;    
+}
+.s-allready-reg-button{
+    color: aqua;
+    margin-left: 474px;
+    margin-right: 475px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.input-box-1{
+    color: var(--color-white);
+}
+
+.input-box{
+    border: 1px solid black;
+    width: 100%;
+    height: 30px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 600;
+}
+
+
+/* Student Login Form */
+.s-not-login-button{
+    color: aqua;
+    margin-left: 491px;
+    margin-right: 491px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.s-log-hr{
+    width: 50%;
+    text-align: center;
+    margin-left: 22%;   
+}
+
+/* sub foooter section start here  */
+
+.sub-footer{
+    background-color: #141d28;
+    padding: var(--padding-inline-section);
+}
+.subfooter-container{
+    justify-content: center;
+    gap: 30px;
+    color: white;
+}
+.subfooter-container a{
+    color: var(--color-white);
+    justify-content: center;
+    align-items: center;
+}
+.nav-links1{
+    flex-basis: 150px;
+}
+.nav-links1 h4,a{
+    justify-content: end;
+    gap: 40px;
+}
+/* sub foooter section end here  */
+
+
+
+/* index page start here */
+.add_cat{
+    border: 1px solid black;
+    background-color: var(--color-black);
+    color: var(--color-white);
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    transition: ease-out 0.8s;
+}
+.add_cat:hover{
+    border: 1px solid black;
+    background-color: var(--color-white);
+    color: var(--color-black);
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    transition: ease-out 0.8s;
+}
+.add_cat_p{
+    font-size: 15px;
+}
+/* index page end here */
+
+.tbl-full{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 20px;
+    border: 1px solid black;
+    background-color: var(--color-black);
+    color: var(--color-white);
+}
+.tbl-full tr th{
+    border: 1px solid black;
+    /* padding: 1%; */
+}
+.tbl-fully{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: var(--color-black-1);
+    color: var(--color-white);
+    /* text-align: left; */
+}
+.tbl-fully tr td{
+    padding-left: 1%;
+}
+.td1{
+    border:  1px solid black;
+    width: 47px;
+    box-sizing: border-box;
+    
+}
+.td2{
+    /* border:  1px solid black; */
+    width: 261px;
+    box-sizing: border-box;
+}
+.td3{
+    /* border: 1px solid black; */
+    width: 245px;
+    box-sizing: border-box;
+}
+.td4{
+    /* border:  1px solid black; */
+    width: 142px;
+    box-sizing: border-box;
+}
+.td5{
+    /* border:  1px solid black; */
+    width: 235px;
+    box-sizing: border-box;
+    /* padding-right: 1%; */
+}
+.td6{
+    /* border:  1px solid black; */
+    box-sizing: border-box;
+    /* padding: 10px; */
+}
+table tr th{
+    /* border-bottom: 1px solid white; */
+    padding: 1%;
+    text-align: left;
+}
+.category{
+    color: var(--color-white);
+    text-decoration: none;
+}
+.btn{
+    /* background-color: var(--color-black-1); */
+    background-color: green;
+    border-radius: 6px;
+    font-weight: 700;
+    color: var(--color-white);
+    padding: 12px 24px;
+    /* border: 1px solid black; */
+    width:181px;
+    text-align: left;
+    padding-right: 1%;
+    box-sizing: 0 0 2px var(--color-white);
+    transition: 0.3s ease-out;
+    /* margin-left: 10%; */
+}
+.btn:hover{   
+    /* background-color: var(--color-gray); */
+    background-color: red;
+}
+.btn1{
+    /* background-color: var(--color-black-1); */
+    background-color: red;
+    border-radius: 6px;
+    font-weight: 700;
+    color: var(--color-white);
+    padding: 12px 24px;
+    width: 93px;
+    text-align: left;
+    padding-right: 1%;
+    box-sizing: 0 0 2px var(--color-white);
+    transition: 0.3s ease-out;
+    /* margin-left: 10%; */
+}
+.btn1:hover{   
+    /* background-color: var(--color-gray); */
+    background-color: green;
+}
+
+.add_c{
+    margin-top: 20px;
+    margin-left: 10%;
+}
+
+.tbl-full-1{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 20px;
+    border: 1px solid black;
+    background-color: var(--color-black);
+    color: var(--color-white);
+}
+.tbl-full-1 tr th{
+    /* border: 1px solid black; */
+    /* padding: 1%; */
+}
+.tbl-fully-1{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: var(--color-black-1);
+    color: var(--color-white);
+    text-align: left;
+}
+.tbl-fully-1 tr td{
+    padding-left: 1%;
+}
+.td1-1{
+    width: 32px;
+    /* border: 1px solid black; */
+}
+.td2-1{
+    width: 85px;
+    /* border: 1px solid black; */
+}
+.td3-1{
+    width: 193px;
+    /* border: 1px solid black; */
+}
+.td4-1{
+    width: 115px;
+    /* border: 1px solid black; */
+}
+.td5-1{
+    width: 150px;
+    /* border: 1px solid black; */
+}
+.td6-1{
+    width: 87px;
+    /* border: 1px solid black; */
+}
+.td7-1{
+    width: 99px;
+    /* border: 1px solid black; */
+}
+.td8-1{
+    width: 156px;
+    /* border: 1px solid black; */
+}
